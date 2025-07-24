@@ -27,10 +27,11 @@ namespace CollectionsMasterConsoleUI
             //NumberPrinter();
             Console.WriteLine("-------------------");
 
-            //TODO: Reverse the contents of the array and then print the array out to the console.
-            //Try for 2 different ways
+            //TODO: Reverse the contents of the array.
+            //Do this 2 different ways
             /*  1) First way, using a custom method => Hint: Array._____(); 
                 2) Second way, Create a custom method (scroll to bottom of page to find ⬇⬇⬇)
+                Then print BOTH reversed arrays to the console.
             */
 
             Console.WriteLine("All Numbers Reversed:");
