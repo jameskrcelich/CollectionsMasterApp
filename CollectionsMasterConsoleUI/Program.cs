@@ -53,6 +53,8 @@ namespace CollectionsMasterConsoleUI
 
             Console.WriteLine("\n************End Arrays*************** \n");
             #endregion
+            int[] numbers = { 1, 2, 3, 4, 5 };
+            ReverseArray(numbers);
 
             #region Lists
             Console.WriteLine("************Start Lists**************");
@@ -132,7 +134,7 @@ namespace CollectionsMasterConsoleUI
 
         private static void ReverseArray(int[] array)
         {
-            
+            Array.Reverse(array);
         }
 
         /// <summary>
